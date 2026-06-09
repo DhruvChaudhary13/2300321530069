@@ -1,9 +1,3 @@
-"""
-Notification App Backend - Stage 6 Priority Inbox
-FastAPI application that fetches notifications from test server
-and returns top 10 priority notifications.
-"""
-
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
